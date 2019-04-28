@@ -1,0 +1,7 @@
+Name	Room	EventType	EventData	Arrow	DelayTime
+Smith	OR 1	NoEv	Null	Null	0
+Smith	OR 1	SpO2	91%	2193	5
+Smith	OR 1	NoEv	Null	Null	10
+Smith	OR 1	NBP	90/60	2198	13
+Smith	OR 1	SpO2	88%	2198	15
+Smith	OR 1	NoEv	Null	Null	20

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14490.70" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Vas-hJ-9Ep">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14490.21"/>
+    </dependencies>
+    <scenes>
+        <!--secondpage-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="secondpage" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MUSC_Anesthesia_djobrie_WatchKit_Extension">
+                    <items>
+                        <label width="136" height="18" alignment="left" text="Name - Room" textAlignment="center" id="gkf-ky-RUU">
+                            <fontDescription key="font" type="system" pointSize="22"/>
+                        </label>
+                        <separator width="136" alignment="left" id="vay-G6-k02"/>
+                        <label width="128" height="22" alignment="center" text="Medical Issue" textAlignment="left" id="gTO-zC-94e">
+                            <fontDescription key="font" type="system" pointSize="23"/>
+                        </label>
+                        <label width="23" height="2" alignment="left" verticalAlignment="bottom" text="Et" id="ljA-5Y-2ua">
+                            <fontDescription key="font" type="system" pointSize="23"/>
+                        </label>
+                        <button width="136" height="30" alignment="left" verticalAlignment="bottom" title="Button" id="O3Z-4o-Rot">
+                            <connections>
+                                <action selector="ackButton" destination="AgC-eL-Hgc" id="P9H-n0-bVv"/>
+                            </connections>
+                        </button>
+                        <group width="136" height="40" alignment="left" verticalAlignment="center" radius="6" spacing="2" id="tVh-Y7-bpf">
+                            <items>
+                                <label width="41" height="40" alignment="right" text="-" textAlignment="left" minimumScaleFactor="0.0" id="Q4P-QJ-M7Z">
+                                    <fontDescription key="font" type="system" pointSize="55"/>
+                                </label>
+                                <label width="69" height="30" alignment="left" verticalAlignment="bottom" text="Data" textAlignment="left" id="V76-FA-H8J" propertyAccessControl="none">
+                                    <fontDescription key="font" type="system" pointSize="31"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="Data" destination="V76-FA-H8J" id="Qf2-IY-Y07"/>
+                        <outlet property="DirectionArrow" destination="Q4P-QJ-M7Z" id="A32-UE-nIR"/>
+                        <outlet property="Et" destination="ljA-5Y-2ua" id="DqH-lp-hNL"/>
+                        <outlet property="MedicalIssue" destination="gTO-zC-94e" id="aRI-eV-o9k"/>
+                        <outlet property="NameRoom" destination="gkf-ky-RUU" id="K6t-oE-xSg"/>
+                        <outlet property="ackButtonOut" destination="O3Z-4o-Rot" id="W8N-jd-dLg"/>
+                        <outlet property="underline" destination="vay-G6-k02" id="Dhj-OE-cyf"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="306"/>
+        </scene>
+        <!--StartView-->
+        <scene sceneID="fws-lQ-XHE">
+            <objects>
+                <controller identifier="StartView" title="StartView" id="Vas-hJ-9Ep" customClass="StartView" customModule="MUSC_Anesthesia_djobrie_WatchKit_Extension">
+                    <items>
+                        <label width="106" alignment="left" text="Start Time" id="4bI-lR-hVQ"/>
+                        <label alignment="left" text="Starting in: TBD" id="7Rn-Zv-ahT"/>
+                        <picker height="80" alignment="left" verticalAlignment="center" id="yPf-4A-VgI">
+                            <connections>
+                                <action selector="pickerSelectedItemChanged:" destination="Vas-hJ-9Ep" id="JYm-ns-e29"/>
+                            </connections>
+                        </picker>
+                    </items>
+                    <connections>
+                        <outlet property="StartingInLabel" destination="7Rn-Zv-ahT" id="EKf-Kk-lRJ"/>
+                        <outlet property="messageLabel" destination="4bI-lR-hVQ" id="egR-el-OX7"/>
+                        <outlet property="pickerView" destination="yPf-4A-VgI" id="pzC-nb-EHe"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="487" y="296"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,923 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65EB167B2229E80000422A42 /* Temp.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EB167A2229E80000422A42 /* Temp.m */; };
+		8DD8A78B20E6BA3500BA8EA2 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8DD8A78A20E6BA3500BA8EA2 /* Base.lproj */; };
+		8DE9803420D984B500CDA43E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE9803320D984B500CDA43E /* AppDelegate.swift */; };
+		8DE9803620D984B500CDA43E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE9803520D984B500CDA43E /* ViewController.swift */; };
+		8DE9803920D984B500CDA43E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE9803720D984B500CDA43E /* Main.storyboard */; };
+		8DE9803B20D984B800CDA43E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE9803A20D984B800CDA43E /* Assets.xcassets */; };
+		8DE9803E20D984B800CDA43E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE9803C20D984B800CDA43E /* LaunchScreen.storyboard */; };
+		8DE9804920D984B800CDA43E /* MUSC_AnesthesiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE9804820D984B800CDA43E /* MUSC_AnesthesiaTests.swift */; };
+		8DE9805420D984B800CDA43E /* MUSC_AnesthesiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE9805320D984B800CDA43E /* MUSC_AnesthesiaUITests.swift */; };
+		8DE9805920D984B800CDA43E /* MUSC-Anesthesia-djobrie WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8DE9805820D984B800CDA43E /* MUSC-Anesthesia-djobrie WatchKit App.app */; };
+		8DE9805F20D984B800CDA43E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE9805D20D984B800CDA43E /* Interface.storyboard */; };
+		8DE9806120D984BF00CDA43E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE9806020D984BF00CDA43E /* Assets.xcassets */; };
+		8DE9806820D984BF00CDA43E /* MUSC-Anesthesia-djobrie WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8DE9806720D984BF00CDA43E /* MUSC-Anesthesia-djobrie WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8DE9806D20D984C000CDA43E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE9806C20D984C000CDA43E /* InterfaceController.swift */; };
+		8DE9806F20D984C000CDA43E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE9806E20D984C000CDA43E /* ExtensionDelegate.swift */; };
+		8DE9807120D984C000CDA43E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE9807020D984C000CDA43E /* NotificationController.swift */; };
+		8DE9807320D984C600CDA43E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE9807220D984C600CDA43E /* Assets.xcassets */; };
+		C81C77B1211A432A00111365 /* patients3.txt in Resources */ = {isa = PBXBuildFile; fileRef = C81C77AE211A432A00111365 /* patients3.txt */; };
+		C81C77B2211A432A00111365 /* patients1.txt in Resources */ = {isa = PBXBuildFile; fileRef = C81C77AF211A432A00111365 /* patients1.txt */; };
+		C81C77B3211A432A00111365 /* patients2.txt in Resources */ = {isa = PBXBuildFile; fileRef = C81C77B0211A432A00111365 /* patients2.txt */; };
+		C81D44592108CDEB00C1B195 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81D44582108CDEB00C1B195 /* StartView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DE9804520D984B800CDA43E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DE9802820D984B500CDA43E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DE9802F20D984B500CDA43E;
+			remoteInfo = "MUSC-Anesthesia";
+		};
+		8DE9805020D984B800CDA43E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DE9802820D984B500CDA43E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DE9802F20D984B500CDA43E;
+			remoteInfo = "MUSC-Anesthesia";
+		};
+		8DE9805A20D984B800CDA43E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DE9802820D984B500CDA43E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DE9805720D984B800CDA43E;
+			remoteInfo = "MUSC-Anesthesia WatchKit App";
+		};
+		8DE9806920D984BF00CDA43E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DE9802820D984B500CDA43E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DE9806620D984BF00CDA43E;
+			remoteInfo = "MUSC-Anesthesia WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DE9807B20D984C600CDA43E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8DE9806820D984BF00CDA43E /* MUSC-Anesthesia-djobrie WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE9807F20D984C600CDA43E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8DE9805920D984B800CDA43E /* MUSC-Anesthesia-djobrie WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		65EB16782229E80000422A42 /* MUSC-Anesthesia-djobrie-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MUSC-Anesthesia-djobrie-Bridging-Header.h"; sourceTree = "<group>"; };
+		65EB16792229E80000422A42 /* Temp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Temp.h; sourceTree = "<group>"; };
+		65EB167A2229E80000422A42 /* Temp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Temp.m; sourceTree = "<group>"; };
+		8DD8A78A20E6BA3500BA8EA2 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		8DE9803020D984B500CDA43E /* MUSC-Anesthesia-djobrie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MUSC-Anesthesia-djobrie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE9803320D984B500CDA43E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DE9803520D984B500CDA43E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DE9803820D984B500CDA43E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DE9803A20D984B800CDA43E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DE9803D20D984B800CDA43E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DE9803F20D984B800CDA43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE9804420D984B800CDA43E /* MUSC-Anesthesia-djobrieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MUSC-Anesthesia-djobrieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE9804820D984B800CDA43E /* MUSC_AnesthesiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUSC_AnesthesiaTests.swift; sourceTree = "<group>"; };
+		8DE9804A20D984B800CDA43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE9804F20D984B800CDA43E /* MUSC-Anesthesia-djobrieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MUSC-Anesthesia-djobrieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE9805320D984B800CDA43E /* MUSC_AnesthesiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MUSC_AnesthesiaUITests.swift; sourceTree = "<group>"; };
+		8DE9805520D984B800CDA43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE9805820D984B800CDA43E /* MUSC-Anesthesia-djobrie WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MUSC-Anesthesia-djobrie WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE9805E20D984B800CDA43E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8DE9806020D984BF00CDA43E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DE9806220D984BF00CDA43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE9806720D984BF00CDA43E /* MUSC-Anesthesia-djobrie WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MUSC-Anesthesia-djobrie WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE9806C20D984C000CDA43E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		8DE9806E20D984C000CDA43E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		8DE9807020D984C000CDA43E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		8DE9807220D984C600CDA43E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DE9807420D984C600CDA43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE9807520D984C600CDA43E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C81C77AE211A432A00111365 /* patients3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = patients3.txt; sourceTree = "<group>"; };
+		C81C77AF211A432A00111365 /* patients1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = patients1.txt; sourceTree = "<group>"; };
+		C81C77B0211A432A00111365 /* patients2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = patients2.txt; sourceTree = "<group>"; };
+		C81D44582108CDEB00C1B195 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StartView.swift; path = "/Users/daniel/Desktop/third/Apple-Watch-Display-master/MUSC-Anesthesia WatchKit Extension/StartView.swift"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24A8D067CB18DC72D5666E58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE9802D20D984B500CDA43E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE9804120D984B800CDA43E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE9804C20D984B800CDA43E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE9806420D984BF00CDA43E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DE9802720D984B500CDA43E = {
+			isa = PBXGroup;
+			children = (
+				65EB16792229E80000422A42 /* Temp.h */,
+				65EB167A2229E80000422A42 /* Temp.m */,
+				8DE9803220D984B500CDA43E /* MUSC-Anesthesia */,
+				8DE9804720D984B800CDA43E /* MUSC-AnesthesiaTests */,
+				8DE9805220D984B800CDA43E /* MUSC-AnesthesiaUITests */,
+				8DE9805C20D984B800CDA43E /* MUSC-Anesthesia WatchKit App */,
+				8DE9806B20D984C000CDA43E /* MUSC-Anesthesia WatchKit Extension */,
+				8DE9803120D984B500CDA43E /* Products */,
+				65EB16782229E80000422A42 /* MUSC-Anesthesia-djobrie-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		8DE9803120D984B500CDA43E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DE9803020D984B500CDA43E /* MUSC-Anesthesia-djobrie.app */,
+				8DE9804420D984B800CDA43E /* MUSC-Anesthesia-djobrieTests.xctest */,
+				8DE9804F20D984B800CDA43E /* MUSC-Anesthesia-djobrieUITests.xctest */,
+				8DE9805820D984B800CDA43E /* MUSC-Anesthesia-djobrie WatchKit App.app */,
+				8DE9806720D984BF00CDA43E /* MUSC-Anesthesia-djobrie WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DE9803220D984B500CDA43E /* MUSC-Anesthesia */ = {
+			isa = PBXGroup;
+			children = (
+				8DE9803320D984B500CDA43E /* AppDelegate.swift */,
+				8DE9803520D984B500CDA43E /* ViewController.swift */,
+				8DE9803720D984B500CDA43E /* Main.storyboard */,
+				8DE9803A20D984B800CDA43E /* Assets.xcassets */,
+				8DE9803C20D984B800CDA43E /* LaunchScreen.storyboard */,
+				8DE9803F20D984B800CDA43E /* Info.plist */,
+			);
+			path = "MUSC-Anesthesia";
+			sourceTree = "<group>";
+		};
+		8DE9804720D984B800CDA43E /* MUSC-AnesthesiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DE9804820D984B800CDA43E /* MUSC_AnesthesiaTests.swift */,
+				8DE9804A20D984B800CDA43E /* Info.plist */,
+			);
+			path = "MUSC-AnesthesiaTests";
+			sourceTree = "<group>";
+		};
+		8DE9805220D984B800CDA43E /* MUSC-AnesthesiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DE9805320D984B800CDA43E /* MUSC_AnesthesiaUITests.swift */,
+				8DE9805520D984B800CDA43E /* Info.plist */,
+			);
+			path = "MUSC-AnesthesiaUITests";
+			sourceTree = "<group>";
+		};
+		8DE9805C20D984B800CDA43E /* MUSC-Anesthesia WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8DE9805D20D984B800CDA43E /* Interface.storyboard */,
+				8DD8A78A20E6BA3500BA8EA2 /* Base.lproj */,
+				8DE9806020D984BF00CDA43E /* Assets.xcassets */,
+				8DE9806220D984BF00CDA43E /* Info.plist */,
+			);
+			path = "MUSC-Anesthesia WatchKit App";
+			sourceTree = "<group>";
+		};
+		8DE9806B20D984C000CDA43E /* MUSC-Anesthesia WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C81C77AF211A432A00111365 /* patients1.txt */,
+				C81C77B0211A432A00111365 /* patients2.txt */,
+				C81C77AE211A432A00111365 /* patients3.txt */,
+				C81D44582108CDEB00C1B195 /* StartView.swift */,
+				8DE9806C20D984C000CDA43E /* InterfaceController.swift */,
+				8DE9806E20D984C000CDA43E /* ExtensionDelegate.swift */,
+				8DE9807020D984C000CDA43E /* NotificationController.swift */,
+				8DE9807220D984C600CDA43E /* Assets.xcassets */,
+				8DE9807420D984C600CDA43E /* Info.plist */,
+				8DE9807520D984C600CDA43E /* PushNotificationPayload.apns */,
+			);
+			path = "MUSC-Anesthesia WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DE9802F20D984B500CDA43E /* MUSC-Anesthesia-djobrie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE9808020D984C600CDA43E /* Build configuration list for PBXNativeTarget "MUSC-Anesthesia-djobrie" */;
+			buildPhases = (
+				8DE9802C20D984B500CDA43E /* Sources */,
+				8DE9802D20D984B500CDA43E /* Frameworks */,
+				8DE9802E20D984B500CDA43E /* Resources */,
+				8DE9807F20D984C600CDA43E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DE9805B20D984B800CDA43E /* PBXTargetDependency */,
+			);
+			name = "MUSC-Anesthesia-djobrie";
+			productName = "MUSC-Anesthesia";
+			productReference = 8DE9803020D984B500CDA43E /* MUSC-Anesthesia-djobrie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DE9804320D984B800CDA43E /* MUSC-Anesthesia-djobrieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE9808320D984C600CDA43E /* Build configuration list for PBXNativeTarget "MUSC-Anesthesia-djobrieTests" */;
+			buildPhases = (
+				8DE9804020D984B800CDA43E /* Sources */,
+				8DE9804120D984B800CDA43E /* Frameworks */,
+				8DE9804220D984B800CDA43E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DE9804620D984B800CDA43E /* PBXTargetDependency */,
+			);
+			name = "MUSC-Anesthesia-djobrieTests";
+			productName = "MUSC-AnesthesiaTests";
+			productReference = 8DE9804420D984B800CDA43E /* MUSC-Anesthesia-djobrieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DE9804E20D984B800CDA43E /* MUSC-Anesthesia-djobrieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE9808620D984C600CDA43E /* Build configuration list for PBXNativeTarget "MUSC-Anesthesia-djobrieUITests" */;
+			buildPhases = (
+				8DE9804B20D984B800CDA43E /* Sources */,
+				8DE9804C20D984B800CDA43E /* Frameworks */,
+				8DE9804D20D984B800CDA43E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DE9805120D984B800CDA43E /* PBXTargetDependency */,
+			);
+			name = "MUSC-Anesthesia-djobrieUITests";
+			productName = "MUSC-AnesthesiaUITests";
+			productReference = 8DE9804F20D984B800CDA43E /* MUSC-Anesthesia-djobrieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8DE9805720D984B800CDA43E /* MUSC-Anesthesia-djobrie WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE9807C20D984C600CDA43E /* Build configuration list for PBXNativeTarget "MUSC-Anesthesia-djobrie WatchKit App" */;
+			buildPhases = (
+				8DE9805620D984B800CDA43E /* Resources */,
+				8DE9807B20D984C600CDA43E /* Embed App Extensions */,
+				24A8D067CB18DC72D5666E58 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DE9806A20D984BF00CDA43E /* PBXTargetDependency */,
+			);
+			name = "MUSC-Anesthesia-djobrie WatchKit App";
+			productName = "MUSC-Anesthesia WatchKit App";
+			productReference = 8DE9805820D984B800CDA43E /* MUSC-Anesthesia-djobrie WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8DE9806620D984BF00CDA43E /* MUSC-Anesthesia-djobrie WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE9807820D984C600CDA43E /* Build configuration list for PBXNativeTarget "MUSC-Anesthesia-djobrie WatchKit Extension" */;
+			buildPhases = (
+				8DE9806320D984BF00CDA43E /* Sources */,
+				8DE9806420D984BF00CDA43E /* Frameworks */,
+				8DE9806520D984BF00CDA43E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MUSC-Anesthesia-djobrie WatchKit Extension";
+			productName = "MUSC-Anesthesia WatchKit Extension";
+			productReference = 8DE9806720D984BF00CDA43E /* MUSC-Anesthesia-djobrie WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DE9802820D984B500CDA43E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Riggs Lab";
+				TargetAttributes = {
+					8DE9802F20D984B500CDA43E = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1010;
+					};
+					8DE9804320D984B800CDA43E = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 8DE9802F20D984B500CDA43E;
+					};
+					8DE9804E20D984B800CDA43E = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 8DE9802F20D984B500CDA43E;
+					};
+					8DE9805720D984B800CDA43E = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					8DE9806620D984BF00CDA43E = {
+						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 8DE9802B20D984B500CDA43E /* Build configuration list for PBXProject "MUSC-Anesthesia-djobrie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DE9802720D984B500CDA43E;
+			productRefGroup = 8DE9803120D984B500CDA43E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DE9802F20D984B500CDA43E /* MUSC-Anesthesia-djobrie */,
+				8DE9804320D984B800CDA43E /* MUSC-Anesthesia-djobrieTests */,
+				8DE9804E20D984B800CDA43E /* MUSC-Anesthesia-djobrieUITests */,
+				8DE9805720D984B800CDA43E /* MUSC-Anesthesia-djobrie WatchKit App */,
+				8DE9806620D984BF00CDA43E /* MUSC-Anesthesia-djobrie WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DE9802E20D984B500CDA43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE9803E20D984B800CDA43E /* LaunchScreen.storyboard in Resources */,
+				8DE9803B20D984B800CDA43E /* Assets.xcassets in Resources */,
+				8DE9803920D984B500CDA43E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE9804220D984B800CDA43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE9804D20D984B800CDA43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE9805620D984B800CDA43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE9806120D984BF00CDA43E /* Assets.xcassets in Resources */,
+				8DD8A78B20E6BA3500BA8EA2 /* Base.lproj in Resources */,
+				8DE9805F20D984B800CDA43E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE9806520D984BF00CDA43E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C81C77B2211A432A00111365 /* patients1.txt in Resources */,
+				C81C77B3211A432A00111365 /* patients2.txt in Resources */,
+				C81C77B1211A432A00111365 /* patients3.txt in Resources */,
+				8DE9807320D984C600CDA43E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DE9802C20D984B500CDA43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE9803620D984B500CDA43E /* ViewController.swift in Sources */,
+				65EB167B2229E80000422A42 /* Temp.m in Sources */,
+				8DE9803420D984B500CDA43E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE9804020D984B800CDA43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE9804920D984B800CDA43E /* MUSC_AnesthesiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE9804B20D984B800CDA43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE9805420D984B800CDA43E /* MUSC_AnesthesiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE9806320D984BF00CDA43E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE9807120D984C000CDA43E /* NotificationController.swift in Sources */,
+				8DE9806F20D984C000CDA43E /* ExtensionDelegate.swift in Sources */,
+				8DE9806D20D984C000CDA43E /* InterfaceController.swift in Sources */,
+				C81D44592108CDEB00C1B195 /* StartView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DE9804620D984B800CDA43E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DE9802F20D984B500CDA43E /* MUSC-Anesthesia-djobrie */;
+			targetProxy = 8DE9804520D984B800CDA43E /* PBXContainerItemProxy */;
+		};
+		8DE9805120D984B800CDA43E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DE9802F20D984B500CDA43E /* MUSC-Anesthesia-djobrie */;
+			targetProxy = 8DE9805020D984B800CDA43E /* PBXContainerItemProxy */;
+		};
+		8DE9805B20D984B800CDA43E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DE9805720D984B800CDA43E /* MUSC-Anesthesia-djobrie WatchKit App */;
+			targetProxy = 8DE9805A20D984B800CDA43E /* PBXContainerItemProxy */;
+		};
+		8DE9806A20D984BF00CDA43E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DE9806620D984BF00CDA43E /* MUSC-Anesthesia-djobrie WatchKit Extension */;
+			targetProxy = 8DE9806920D984BF00CDA43E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DE9803720D984B500CDA43E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DE9803820D984B500CDA43E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DE9803C20D984B800CDA43E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DE9803D20D984B800CDA43E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8DE9805D20D984B800CDA43E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DE9805E20D984B800CDA43E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DE9807620D984C600CDA43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DE9807720D984C600CDA43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DE9807920D984C600CDA43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK442KQUH8;
+				INFOPLIST_FILE = "MUSC-Anesthesia WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RiggsLab.MUSC-Anesthesia-djobrie.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MUSC-Anesthesia WatchKit Extension/MUSC-Anesthesia WatchKit Extension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		8DE9807A20D984C600CDA43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK442KQUH8;
+				INFOPLIST_FILE = "MUSC-Anesthesia WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RiggsLab.MUSC-Anesthesia-djobrie.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MUSC-Anesthesia WatchKit Extension/MUSC-Anesthesia WatchKit Extension-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		8DE9807D20D984C600CDA43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK442KQUH8;
+				IBSC_MODULE = MUSC_Anesthesia_WatchKit_Extension;
+				INFOPLIST_FILE = "MUSC-Anesthesia WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "RiggsLab.MUSC-Anesthesia-djobrie.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		8DE9807E20D984C600CDA43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK442KQUH8;
+				IBSC_MODULE = MUSC_Anesthesia_WatchKit_Extension;
+				INFOPLIST_FILE = "MUSC-Anesthesia WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "RiggsLab.MUSC-Anesthesia-djobrie.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		8DE9808120D984C600CDA43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK442KQUH8;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "MUSC-Anesthesia/Info.plist";
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = "$(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RiggsLab.MUSC-Anesthesia-djobrie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MUSC-Anesthesia-djobrie-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DE9808220D984C600CDA43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK442KQUH8;
+				INFOPLIST_FILE = "MUSC-Anesthesia/Info.plist";
+				LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER = "$(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RiggsLab.MUSC-Anesthesia-djobrie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MUSC-Anesthesia-djobrie-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DE9808420D984C600CDA43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK442KQUH8;
+				INFOPLIST_FILE = "MUSC-AnesthesiaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RiggsLab.MUSC-Anesthesia-djobrieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MUSC-Anesthesia-djobrie.app/MUSC-Anesthesia-djobrie";
+			};
+			name = Debug;
+		};
+		8DE9808520D984C600CDA43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK442KQUH8;
+				INFOPLIST_FILE = "MUSC-AnesthesiaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RiggsLab.MUSC-Anesthesia-djobrieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MUSC-Anesthesia-djobrie.app/MUSC-Anesthesia-djobrie";
+			};
+			name = Release;
+		};
+		8DE9808720D984C600CDA43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK442KQUH8;
+				INFOPLIST_FILE = "MUSC-AnesthesiaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RiggsLab.MUSC-Anesthesia-djobrieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MUSC-Anesthesia";
+			};
+			name = Debug;
+		};
+		8DE9808820D984C600CDA43E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK442KQUH8;
+				INFOPLIST_FILE = "MUSC-AnesthesiaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RiggsLab.MUSC-Anesthesia-djobrieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MUSC-Anesthesia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DE9802B20D984B500CDA43E /* Build configuration list for PBXProject "MUSC-Anesthesia-djobrie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE9807620D984C600CDA43E /* Debug */,
+				8DE9807720D984C600CDA43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE9807820D984C600CDA43E /* Build configuration list for PBXNativeTarget "MUSC-Anesthesia-djobrie WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE9807920D984C600CDA43E /* Debug */,
+				8DE9807A20D984C600CDA43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE9807C20D984C600CDA43E /* Build configuration list for PBXNativeTarget "MUSC-Anesthesia-djobrie WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE9807D20D984C600CDA43E /* Debug */,
+				8DE9807E20D984C600CDA43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE9808020D984C600CDA43E /* Build configuration list for PBXNativeTarget "MUSC-Anesthesia-djobrie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE9808120D984C600CDA43E /* Debug */,
+				8DE9808220D984C600CDA43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE9808320D984C600CDA43E /* Build configuration list for PBXNativeTarget "MUSC-Anesthesia-djobrieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE9808420D984C600CDA43E /* Debug */,
+				8DE9808520D984C600CDA43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE9808620D984C600CDA43E /* Build configuration list for PBXNativeTarget "MUSC-Anesthesia-djobrieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE9808720D984C600CDA43E /* Debug */,
+				8DE9808820D984C600CDA43E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DE9802820D984B500CDA43E /* Project object */;
+}

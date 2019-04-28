@@ -1,0 +1,1 @@
+Name	Room	EventType	EventData	Arrow	DelayTimeJones	OR 3	SpO2	88%	2198	4Jones	OR 3	NBP	90/60	2198	9Jones	OR 3	CO2	25	2198	17Jones	OR 3	SpO2	91%	2193	20Jones	OR 3	NBP	100/70	2193	25Jones	OR 3	CO2	30	2193	33Jones	OR 3	SpO2	80%	21CA	37Jones	OR 3	NBP	60/40	21CA	41Jones	OR 3	CO2	20	21CA	44
